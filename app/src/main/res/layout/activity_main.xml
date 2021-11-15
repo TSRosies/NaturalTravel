@@ -49,12 +49,12 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="370dp"
-        android:layout_height="175dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/info_pedro_palo"
+        android:layout_width="400dp"
+        android:layout_height="176dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
         android:justificationMode="inter_word"
+        android:text="@string/info_pedro_palo"
         android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
