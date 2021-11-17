@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_margin="12dp"
+    card_view:cardBackgroundColor="#CCC5BE"
+    card_view:cardCornerRadius="20dp"
+    card_view:cardElevation="6dp"
+    card_view:contentPadding="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="@string/tigua_ecoparque" />
+
+        <TextView
+            android:id="@+id/item_title"
+            style="@style/Texto_Titulo"
+            android:text="@string/nombre_sitio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="9dp"
+            android:layout_toEndOf="@+id/item_image"
+            />
+
+        <TextView
+            android:id="@+id/item_detail"
+            style="@style/Texto_normal"
+            android:text="@string/descripcion_sitio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_image"
+            android:layout_below="@+id/item_title"
+
+            />
+
+        <TextView
+            android:id="@+id/item_puntaje"
+            style="@style/Texto_normal_Titulo"
+            android:text="@string/puntaje_sitio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/item_image"
+            android:layout_below="@+id/item_detail"
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
