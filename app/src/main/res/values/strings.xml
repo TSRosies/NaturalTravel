@@ -15,4 +15,9 @@
     <string name="nombre_app">CundiApp Turismo</string>
     <string name="boton_inicio">Comenzar visita</string>
     <string name="registro">Registro de un Sitio natural</string>
+    <string name="ecoparque_tigua">EcoparqueTigua</string>
+    <string name="nombre_sitio">nombre</string>
+    <string name="descripcion_sitio">Descripción</string>
+    <string name="puntaje_sitio">puntaje</string>
+    <string name="tigua_ecoparque">Ecoparque Tigua</string>
 </resources>
