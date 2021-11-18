@@ -11,14 +11,11 @@
     <string name="subt_temperatura">Temperatura:</string>
     <string name="info_temperatura">promedio 16 °C </string>
     <string name="subt_sitios_act">Sitios y actividades recomendadas:</string>
-    <string name="info_sitios_act">Senderismo.</string>
-    <string name="nombre_app">CundiApp Turismo</string>
+    <string name="info_sitios_act">Senderismo</string>
     <string name="boton_inicio">Comenzar visita</string>
     <string name="registro">Registro de un Sitio natural</string>
-    <string name="ecoparque_tigua">EcoparqueTigua</string>
-    <string name="nombre_sitio">VaNomSitio</string>
     <string name="descripcion_sitio">Descripción</string>
-    <string name="puntaje_sitio">puntaje</string>
-    <string name="tigua_ecoparque">Ecoparque Tigua</string>
-    <string name="sitios_naturales">NaturalTravel</string>
+    <string name="puntaje_sitio">Puntuación</string>
+    <string name="nombre_sitio">VaNomSitio</string>
+
 </resources>
