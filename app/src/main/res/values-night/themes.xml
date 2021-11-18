@@ -18,9 +18,14 @@
         <item name="android:textColor">@color/green</item>
         <item name="android:textStyle">bold</item>
     </style>
+    <style name="Texto_Titulo_Sitio">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="Texto_Titulo_Lista">
         <item name="android:textSize">30sp</item>
-        <item name="android:textColor">@color/green</item>
+        <item name="android:textColor">@color/greendark</item>
         <item name="android:textStyle">bold</item>
     </style>
     <style name="Texto_normal_Titulo">
