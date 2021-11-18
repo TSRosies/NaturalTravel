@@ -37,6 +37,7 @@ class MainListaActivity : AppCompatActivity() {
              descripcion= "El Parque Natural Ecológico Pionono, es una reserva natural, conocido como el cerro de las águilas, comprende desde 2.800 metros hasta 3.250 metros. ",
              puntuacion = "5"
 
+
          )
          lista.add(sitionatural)
          return lista*/
@@ -47,11 +48,13 @@ class MainListaActivity : AppCompatActivity() {
                 descripcion= "El Parque Natural Ecológico Pionono, es una reserva natural, conocido como el cerro de las águilas, comprende desde 2.800 metros hasta 3.250 metros. ",
                 puntuacion = "5"
 
+
             ),
             SitioNatural(
                 nombre = "Parque Ecológico Pionono",
                 descripcion= "El Parque Natural Ecológico Pionono, es una reserva natural, conocido como el cerro de las águilas, comprende desde 2.800 metros hasta 3.250 metros. ",
-                puntuacion ="5"
+                puntuacion ="5" 
+
             ),
             SitioNatural(
                 nombre = "Parque Ecológico Pionono",

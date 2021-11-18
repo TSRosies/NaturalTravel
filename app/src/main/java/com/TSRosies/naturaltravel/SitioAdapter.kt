@@ -7,15 +7,12 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import org.imaginativeworld.whynotimagecarousel.utils.setImage
 
 class SitioAdapter(
     private val sitiosList: ArrayList<SitioNatural>
 )
     :RecyclerView.Adapter<SitioAdapter.ViewHolder>(){
-
-
-    val images = intArrayOf(R.drawable.ecoparque_tigua,R.drawable.laguna_de_pedro_palo,
-        R.drawable.parque_ecologico_pionono,R.drawable.parque_montana_oso)
 
 
     override fun onCreateViewHolder(parent: ViewGroup, Viewtype: Int): ViewHolder {
@@ -39,7 +36,7 @@ class SitioAdapter(
 
             fun bind(sitionatural: SitioNatural){
                 Log.d("nombre",sitionatural.nombre)
-                itemTitleTextView.text = sitionatural.nombre
+                itemTitleTextView.text= sitionatural.nombre
                 itemDetailTextView.text = sitionatural.descripcion
                 itemPuntajeTextView.text = sitionatural.puntuacion
                 //picture
