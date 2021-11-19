@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import org.imaginativeworld.whynotimagecarousel.utils.setImage
+import com.squareup.picasso.Picasso
 
 class SitioAdapter(
     private val sitiosList: ArrayList<SitioNaturalItem>
@@ -27,7 +28,7 @@ class SitioAdapter(
     override fun getItemCount(): Int = sitiosList.size
 
     class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
-        private var itemImageImageView:ImageView = itemView.findViewById(R.id.item_image)
+        private val itemImageView:ImageView = itemView.findViewById(R.id.item_image)
         private var itemTitleTextView:TextView = itemView.findViewById(R.id.item_title)
         private var itemDetailTextView:TextView = itemView.findViewById(R.id.item_detail)
         private var itemPuntajeTextView:TextView = itemView.findViewById(R.id.item_puntaje)
@@ -39,7 +40,7 @@ class SitioAdapter(
                 itemTitleTextView.text= sitionatural.nombre
                 itemDetailTextView.text = sitionatural.descripcion
                 itemPuntajeTextView.text = sitionatural.puntaje
-                //picture
+                Picasso.get().load(sitionatural.url).into(itemImageView)
         }
     }
 }

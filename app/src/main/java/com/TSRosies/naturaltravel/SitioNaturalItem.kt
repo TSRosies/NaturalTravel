@@ -9,5 +9,7 @@ data class SitioNaturalItem(
     @SerializedName("nombre")
     val nombre: String,
     @SerializedName("puntaje")
-    val puntaje: String
+    val puntaje: String,
+    @SerializedName("url")
+    val url: String
 )
