@@ -4,4 +4,4 @@ data class SitioNatural (
     val nombre: String,
     val lugar:String,
     val descripcion:String,
-    val puntaje:Float)
+    val puntuacion:Float)

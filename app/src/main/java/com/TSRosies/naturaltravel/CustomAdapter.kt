@@ -7,15 +7,16 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class CustomAdapter:RecyclerView.Adapter<CustomAdapter.ViewHolder>(){
+class
+CustomAdapter:RecyclerView.Adapter<CustomAdapter.ViewHolder>(){
 
-    val titles= arrayOf("Sitio 1 natural a visitar","Sitio 2 natural a visitar","Sitio 3 natural a visitar","Sitio 4 natural a visitar" )
+    val titles= arrayOf("Sitio 1 natural a visitar","Sitio 2 natural a visitar","Sitio 3 natural a visitar","Sitio 4 natural a visitar","Sitio 5 natural a visitar" )
 
-    val details = arrayOf("Detalle sitio 1","Detalle sitio 2","Detalle sitio 3","Detalle sitio 4")
-    val puntaje = arrayOf(" puntaje 1"," puntaje 2"," puntaje 3"," puntaje 4")
+    val details = arrayOf("Detalle sitio 1","Detalle sitio 2","Detalle sitio 3","Detalle sitio 4","Detalle sitio 5")
+    val puntaje = arrayOf(" puntuación 1"," puntuación 2"," puntuación 3"," puntuación 4"," puntuación 5")
 
     val images = intArrayOf(R.drawable.ecoparque_tigua,R.drawable.laguna_de_pedro_palo,
-        R.drawable.parque_ecologico_pionono,R.drawable.parque_montana_oso)
+        R.drawable.parque_ecologico_pionono,R.drawable.parque_montana_oso,R.drawable.parque_montana_oso2)
 
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ViewHolder {
