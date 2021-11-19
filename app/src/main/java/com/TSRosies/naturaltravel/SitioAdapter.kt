@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import org.imaginativeworld.whynotimagecarousel.utils.setImage
+
 import com.squareup.picasso.Picasso
 
 class SitioAdapter(
