@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import org.imaginativeworld.whynotimagecarousel.utils.setImage
 
 class SitioAdapter(
-    private val sitiosList: ArrayList<SitioNatural>
+    private val sitiosList: ArrayList<SitioNaturalItem>
 )
     :RecyclerView.Adapter<SitioAdapter.ViewHolder>(){
 
@@ -34,11 +34,11 @@ class SitioAdapter(
 
 
 
-            fun bind(sitionatural: SitioNatural){
+            fun bind(sitionatural: SitioNaturalItem){
                 Log.d("nombre",sitionatural.nombre)
                 itemTitleTextView.text= sitionatural.nombre
                 itemDetailTextView.text = sitionatural.descripcion
-                itemPuntajeTextView.text = sitionatural.puntuacion
+                itemPuntajeTextView.text = sitionatural.puntaje
                 //picture
         }
     }

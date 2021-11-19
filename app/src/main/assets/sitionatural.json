@@ -1,0 +1,47 @@
+[
+    {
+      "nombre": "Parque Ecológico Pionono",
+      "descripcion": "Es una reserva natural, conocido como el cerro de las águilas",
+      "puntaje": "4"
+    },
+    {
+      "nombre": "Termales  Santa Ana y Santa Lucia",
+      "descripcion": "Baños medicinales con cientos de minerales.",
+      "puntaje": "5"
+    },
+    {
+      "nombre": "El Salto de Las Monjas",
+      "descripcion": "Esta es la caída de agua más importante del río Apulo en su viaje hacia el Bogotá y el Magdalena",
+      "puntaje": "4"
+    },
+    {
+      "nombre": "Montaña del Oso",
+      "descripcion": "eco-turismo con énfasis en la sensibilización hacia el cuidado del medio ambiente y recursos naturales",
+      "puntaje": "5"
+    },
+    {
+      "nombre": "Bioparque la reserva",
+      "descripcion": "Parque temático natural y santuario de plantas y animales rescatados",
+      "puntaje": "4"
+    },
+    {
+      "nombre": "Tygüa Magüe Ecoparque",
+      "descripcion": "Lugar de contrastes que cobija gran diversidad botánica que se puede apreciar en esos 300 metros de altura",
+      "puntaje": "4"
+    },
+    {
+      "nombre": "Parque Natural Los Tunos",
+      "descripcion": "parque natural clasificado como formaciones de montaña muy húmedo o bosques de Nublado",
+      "puntaje": "5"
+    },
+    {
+      "nombre": "Laguna de Pedro Palo",
+      "descripcion": "la única Laguna Sagrada de los Muiscas localizada en tierras bajas",
+      "puntaje": "5"
+    },
+    {
+      "nombre": "Laguna de Salcedo",
+      "descripcion": "Parque de piedras con petroglifos, fósiles, todo un turismo arqueológico cargado de historia",
+      "puntaje": "4"
+    }
+  ]
