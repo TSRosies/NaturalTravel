@@ -1,0 +1,56 @@
+[
+    {
+      "nombre": "Parque Ecológico Pionono",
+      "descripcion": "Es una reserva natural, conocido como el cerro de las águilas",
+      "puntaje": "puntuación: 4",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357236/NaturalTravelApp/parque_ecologico_pionono_pc6i4i.png"
+    },
+    {
+      "nombre": "Termales  Santa Ana y Santa Lucia",
+      "descripcion": "Baños medicinales con cientos de minerales.",
+      "puntaje": "puntuación: 5",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357238/NaturalTravelApp/termal_santa_ana_emxexs.jpg"
+    },
+    {
+      "nombre": "El Salto de Las Monjas",
+      "descripcion": "Esta es la caída de agua más importante del río Apulo en su viaje hacia el Bogotá y el Magdalena",
+      "puntaje": "puntuación: 4",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357533/NaturalTravelApp/salto_monjas_n9k6tf.jpg"
+    },
+    {
+      "nombre": "Montaña del Oso",
+      "descripcion": "eco-turismo con énfasis en la sensibilización hacia el cuidado del medio ambiente y recursos naturales",
+      "puntaje": "puntuación: 5",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/parque_montana_oso_ojpxxv.png"
+    },
+    {
+      "nombre": "Bioparque la reserva",
+      "descripcion": "Parque temático natural y santuario de plantas y animales rescatados",
+      "puntaje": "puntaje: 4",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/bioparque_la_reserva_3_qwe71u.jpg"
+    },
+    {
+      "nombre": "Tygüa Magüe Ecoparque",
+      "descripcion": "Lugar de contrastes que cobija gran diversidad botánica que se puede apreciar en esos 300 metros de altura",
+      "puntaje": "puntuación: 4",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357241/NaturalTravelApp/ecoparque_tigua3_edeua0.png"
+    },
+    {
+      "nombre": "Parque Natural Los Tunos",
+      "descripcion": "parque natural clasificado como formaciones de montaña muy húmedo o bosques de Nublado",
+      "puntaje": "puntuación: 5",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/parque_natural_los_tunos_2_idfuve.jpg"
+    },
+    {
+      "nombre": "Laguna de Pedro Palo",
+      "descripcion": "la única Laguna Sagrada de los Muiscas localizada en tierras bajas",
+      "puntaje": "puntuación: 5",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637357241/NaturalTravelApp/laguna_pedro_palo_5_m0lcax.jpg"
+    },
+    {
+      "nombre": "Laguna de Salcedo",
+      "descripcion": "Parque de piedras con petroglifos, fósiles, todo un turismo arqueológico cargado de historia",
+      "puntaje": "puntuación: 4",
+      "url": "https://res.cloudinary.com/milecafa/image/upload/v1637358544/NaturalTravelApp/laguna_salcedo_3_mwpvd2.jpg"
+    }
+  ]

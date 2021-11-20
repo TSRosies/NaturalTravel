@@ -1,7 +1,6 @@
 package com.TSRosies.naturaltravel
 
-data class SitioNatural (
-    val nombre: String,
-    val lugar:String,
-    val descripcion:String,
-    val puntuacion:Float)
+
+import com.google.gson.annotations.SerializedName
+
+class SitioNatural : ArrayList<SitioNaturalItem>()
