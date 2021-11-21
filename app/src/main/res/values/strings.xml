@@ -1,16 +1,21 @@
 <resources>
     <string name="app_name">NaturalTravel</string>
-    <string name="titulo_laguna_de_pedro_palo">Laguna de Pedro palo</string>
+    <string name="titulo_laguna_de_pedro_palo">Laguna de Pedro Palo</string>
     <string name="subt_info_pedro_palo">Información general:</string>
     <string name="info_pedro_palo">Son muchas las leyendas sobre encantamientos y poderes mágicos, pero esta es considerada la única Laguna Sagrada de los Muiscas localizada en tierras bajas y la mayor reserva hídrica de la provincia del Tequendama. Su nombre original es TENASUCA y es de gran importancia histórica, pues en esta región se efectuaron los primero viajes de la Real Expedición Botánica en 1783.
-    Se trata de una laguna de forma casi circular que tiene a su alrededor dos paisajes, uno en el que subsiste parte del bosque tropical andino que en algún momento rodeó las aguas, y el otro, pastizales y cultivos en fincas aledañas. El espejo de agua es de aproximadamente 10 hectáreas y se llega por el antiguo camino colonial.
+    Se trata de una laguna de forma casi circular que tiene a su alrededor dos paisajes, uno en el que subsiste parte del bosque tropical andino que en algún tiempo rodeó las aguas, y el otro, pastizales y cultivos en fincas aledañas. El espejo de agua es de aproximadamente 10 hectáreas y se llega por el antiguo camino colonial.
     </string>
     <string name="subt_ubicacion">Ubicación:</string>
+    <string name="descripcion_imagen">Laguna con pequeñas mesetas</string>
     <string name="info_ubicación">vereda Catalamonte, municipio de Tena / Cund.</string>
     <string name="subt_temperatura">Temperatura:</string>
     <string name="info_temperatura">promedio 16 °C </string>
     <string name="subt_sitios_act">Sitios y actividades recomendadas:</string>
-    <string name="info_sitios_act">Senderismo.</string>
-    <string name="nombre_app">CundiApp Turismo</string>
+    <string name="info_sitios_act">Senderismo</string>
     <string name="boton_inicio">Comenzar visita</string>
+    <string name="registro">Registro de un Sitio natural</string>
+    <string name="descripcion_sitio">Descripción</string>
+    <string name="puntaje_sitio">Puntuación</string>
+    <string name="nombre_sitio">VaNomSitio</string>
+
 </resources>
