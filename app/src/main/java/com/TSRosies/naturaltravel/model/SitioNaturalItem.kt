@@ -2,6 +2,7 @@ package com.TSRosies.naturaltravel.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class SitioNaturalItem(
     @SerializedName("descripcion")
@@ -24,4 +25,4 @@ data class SitioNaturalItem(
     val urlImagen1: String,
     @SerializedName("urlImagen2")
     val urlImagen2: String
-)
+):  Serializable
