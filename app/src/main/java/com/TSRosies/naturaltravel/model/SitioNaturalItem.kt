@@ -5,6 +5,8 @@ import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 data class SitioNaturalItem(
+    @SerializedName("nombre")
+    val nombre: String,
     @SerializedName("descripcion")
     val descripcion: String,
     @SerializedName("descripcion2")
@@ -15,8 +17,6 @@ data class SitioNaturalItem(
     val temperatura: String,
     @SerializedName("actividades")
     val actividades: String,
-    @SerializedName("nombre")
-    val nombre: String,
     @SerializedName("puntaje")
     val puntaje: String,
     @SerializedName("urlImagen")
