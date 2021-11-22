@@ -1,9 +1,12 @@
-package com.TSRosies.naturaltravel
+package com.TSRosies.naturaltravel.list
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.TSRosies.naturaltravel.R
+import com.TSRosies.naturaltravel.model.SitioNatural
+import com.TSRosies.naturaltravel.model.SitioNaturalItem
 import com.google.gson.Gson
 
 
@@ -35,7 +38,7 @@ class MainListaActivity : AppCompatActivity() {
     private fun loadMockSitiosNaturalesFromJson(): ArrayList<SitioNaturalItem>{
         val sitioNaturalString:String = applicationContext.assets.open("sitionatural.json").bufferedReader().use{it.readText()}
         val gson = Gson()
-        val data = gson.fromJson(sitioNaturalString,SitioNatural::class.java)
+        val data = gson.fromJson(sitioNaturalString, SitioNatural::class.java)
         return data
     }
 

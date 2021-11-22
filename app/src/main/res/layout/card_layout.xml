@@ -34,7 +34,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="12dp"
             android:contentDescription="@null"
-            app:circularflow_radiusInDP="20"
+            app:cardCornerRadius="50dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"

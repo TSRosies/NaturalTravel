@@ -1,4 +1,4 @@
-package com.TSRosies.naturaltravel
+package com.TSRosies.naturaltravel.list
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.TSRosies.naturaltravel.R
+import com.TSRosies.naturaltravel.model.SitioNaturalItem
 
 import com.squareup.picasso.Picasso
 
