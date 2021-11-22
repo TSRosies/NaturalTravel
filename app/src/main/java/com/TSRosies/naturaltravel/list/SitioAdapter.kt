@@ -42,7 +42,7 @@ class SitioAdapter(
                 nombreTextView.text= sitionatural.nombre
                 descripcionTextView.text = sitionatural.descripcion
                 puntajeTextView.text = sitionatural.puntaje
-                Picasso.get().load(sitionatural.urlPicture).into(itemImageView)
+                Picasso.get().load(sitionatural.urlImagen).into(itemImageView)
         }
     }
 }

@@ -13,7 +13,7 @@ class DetalleActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detalle)
-        val carousel: ImageCarousel = findViewById(R.id.carousel)
+        val carousel: ImageCarousel = findViewById(R.id.imagen_carousel)
         list.add(CarouselItem(imageDrawable = R.drawable.laguna_de_pedro_palo))
         list.add(CarouselItem(imageDrawable = R.drawable.laguna_de_pedro_palo2))
         carousel.addData(list)
