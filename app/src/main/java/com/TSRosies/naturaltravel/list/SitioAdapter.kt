@@ -13,7 +13,9 @@ import com.TSRosies.naturaltravel.model.SitioNaturalItem
 import com.squareup.picasso.Picasso
 
 class SitioAdapter(
-    private val sitiosList: ArrayList<SitioNaturalItem>
+    private val sitiosList: ArrayList<SitioNaturalItem>,
+    private val onItemClicked: (SitioNaturalItem)->Unit
+
 )
     :RecyclerView.Adapter<SitioAdapter.ViewHolder>(){
 
@@ -24,6 +26,7 @@ class SitioAdapter(
     }
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val sitionatural=sitiosList[position]
+        holder.itemView.setOnClickListener { onItemClicked(sitiosList[position]) }
         holder.bind(sitionatural)
 
     }

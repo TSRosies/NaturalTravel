@@ -80,7 +80,7 @@
          app:layout_constraintTop_toBottomOf="@+id/descripcion2_text_view" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/ubicacion_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -105,7 +105,7 @@
          app:layout_constraintTop_toBottomOf="@+id/label_ubic_text_view" />
 
      <TextView
-         android:id="@+id/textView7"
+         android:id="@+id/temperatura_text_view"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginStart="16dp"
@@ -114,7 +114,7 @@
          android:textColor="@color/black"
          android:textSize="12sp"
          app:layout_constraintStart_toEndOf="@+id/label_temp_text_view"
-         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+         app:layout_constraintTop_toBottomOf="@+id/ubicacion_text_view" />
 
  <TextView
      android:id="@+id/label_recomend_text_view"
@@ -133,7 +133,7 @@
      app:layout_constraintVertical_bias="0.93" />
 
      <TextView
-         android:id="@+id/textView9"
+         android:id="@+id/actividades_text_view"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginStart="12dp"
@@ -144,7 +144,7 @@
          android:textSize="12sp"
          app:layout_constraintBottom_toBottomOf="parent"
          app:layout_constraintStart_toEndOf="@+id/label_recomend_text_view"
-         app:layout_constraintTop_toBottomOf="@+id/textView7" />
+         app:layout_constraintTop_toBottomOf="@+id/temperatura_text_view" />
 
      </androidx.constraintlayout.widget.ConstraintLayout>
  </ScrollView>

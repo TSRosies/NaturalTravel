@@ -2,6 +2,7 @@ package com.TSRosies.naturaltravel.list
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.TSRosies.naturaltravel.R
@@ -25,14 +26,20 @@ class MainListaActivity : AppCompatActivity() {
         sitioNaturalRecyclerView =findViewById(R.id.SitioNaturalRecyclerView)
 
         //listSitios = createMockSitiosNaturales()
+
         listSitios = loadMockSitiosNaturalesFromJson()
-        sitiosAdapter = SitioAdapter(listSitios)
+        sitiosAdapter = SitioAdapter(listSitios, onItemClicked = {onSitionaturalClicked(it)})
 
         sitioNaturalRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = sitiosAdapter
             setHasFixedSize(false)
         }
+    }
+
+    private fun onSitionaturalClicked(sitionatural: SitioNaturalItem) {
+
+        Log.d ("nombre", sitionatural.nombre)
     }
 
     private fun loadMockSitiosNaturalesFromJson(): ArrayList<SitioNaturalItem>{

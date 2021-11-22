@@ -7,54 +7,105 @@
       "temperatura": "los grados de calor",
       "actividades": "por hacer",
       "puntaje": "puntuación: 4",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     },
     {
       "nombre": "Termales de Santa Ana",
       "descripcion": "Baños medicinales con cientos de minerales.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 5",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437499/Vista%20lista/termal_santa_ana_vista_lista_dkvdbo.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437499/Vista%20lista/termal_santa_ana_vista_lista_dkvdbo.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     },
     {
       "nombre": "El Salto de Las Monjas",
       "descripcion": "Esta es la caída de agua más importante del río Apulo en su viaje hacia el Bogotá y el Magdalena.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 4",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/salto_monjas_vista_lista_qemm7e.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/salto_monjas_vista_lista_qemm7e.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     },
     {
       "nombre": "Montaña del Oso",
       "descripcion": "Eco-turismo con énfasis en la sensibilización hacia el cuidado del medio ambiente y recursos naturales.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 5",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/montana_oso_vista_lista_ohg3kl.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/montana_oso_vista_lista_ohg3kl.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     },
     {
       "nombre": "Bioparque la reserva",
       "descripcion": "Parque temático natural y santuario de plantas y animales rescatados.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 4",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437496/Vista%20lista/bioparque_reserva_vista_lista_qsw2un.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437496/Vista%20lista/bioparque_reserva_vista_lista_qsw2un.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     },
     {
       "nombre": "Tygüa Magüe Ecoparque",
       "descripcion": "Lugar de contrastes que cobija gran diversidad botánica que se puede apreciar en esos 300 metros de altura.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 4",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/parque_tygua_vista_lista_zyi574.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/parque_tygua_vista_lista_zyi574.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
+
     },
     {
       "nombre": "Parque Natural Los Tunos",
       "descripcion": "Parque natural clasificado como formaciones de montaña muy húmedo o bosques de niebla.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 5",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/los_tunos_vista_lista_rxm9g9.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/los_tunos_vista_lista_rxm9g9.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     },
     {
       "nombre": "Laguna de Pedro Palo",
       "descripcion": "La única Laguna Sagrada de los Muiscas localizada en tierras bajas.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 5",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437499/Vista%20lista/pedro_palo_vista_lista_yqwbjf.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437499/Vista%20lista/pedro_palo_vista_lista_yqwbjf.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     },
     {
       "nombre": "Laguna de Salcedo",
       "descripcion": "Parque de piedras con petroglifos, fósiles, todo un turismo arqueológico cargado de historia.",
+      "descripcion2": " hacer descricpion larga",
+      "ubicación": "ubic1",
+      "temperatura": "los grados de calor",
+      "actividades": "por hacer",
       "puntaje": "puntuación: 4",
-      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/laguna_salcedo_vista_lista_eetdii.png"
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/laguna_salcedo_vista_lista_eetdii.png",
+      "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
+      "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png"
     }
   ]
