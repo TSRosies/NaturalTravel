@@ -10,19 +10,17 @@
     android:layout_height="wrap_content"
     tools:context=".detalle.DetalleActivity">
 
- <TextView
-     android:id="@+id/textView"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_marginTop="24dp"
-     android:text="@string/titulo_laguna_de_pedro_palo"
-     android:textColor="@color/green"
-     android:textSize="20sp"
-     android:textStyle="bold"
-     app:layout_constraintEnd_toEndOf="parent"
-     app:layout_constraintHorizontal_bias="0.502"
-     app:layout_constraintStart_toStartOf="parent"
-     app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombre_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/titulo_laguna_de_pedro_palo"
+        style="@style/Texto_Titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!--  <ImageView
          android:id="@+id/imageView"
@@ -36,30 +34,28 @@
          app:srcCompat="@drawable/laguna_de_pedro_palo" />-->
 
     <org.imaginativeworld.whynotimagecarousel.ImageCarousel
-        android:id="@+id/carousel"
+        android:id="@+id/imagen_carousel"
         android:layout_width="410dp"
         android:layout_height="268dp"
         android:contentDescription="@string/descripcion_imagen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/nombre_text_view" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/label_info_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="41dp"
         android:text="@string/subt_info_pedro_palo"
-        android:textColor="@color/green"
-        android:textSize="12sp"
-        android:textStyle="bold"
+        style="@style/Texto_Titulo_Sitio"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/carousel" />
+        app:layout_constraintTop_toBottomOf="@+id/imagen_carousel" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/descripcion2_text_view"
         style="@style/Texto_normal"
         android:layout_width="390dp"
         android:layout_height="174dp"
@@ -68,10 +64,10 @@
         android:justificationMode="inter_word"
         android:text="@string/info_pedro_palo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/label_info_text_view" />
 
     <TextView
-         android:id="@+id/textView4"
+         android:id="@+id/label_ubic_text_view"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginStart="12dp"
@@ -81,10 +77,10 @@
          android:textSize="12sp"
          android:textStyle="bold"
          app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toBottomOf="@+id/textView3" />
+         app:layout_constraintTop_toBottomOf="@+id/descripcion2_text_view" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/ubicacion_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -92,11 +88,11 @@
         android:text="@string/info_ubicación"
         android:textColor="@color/black"
         android:textSize="12sp"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintStart_toEndOf="@+id/label_ubic_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/descripcion2_text_view" />
 
     <TextView
-         android:id="@+id/textView6"
+         android:id="@+id/label_temp_text_view"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginStart="12dp"
@@ -106,10 +102,10 @@
          android:textSize="12sp"
          android:textStyle="bold"
          app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+         app:layout_constraintTop_toBottomOf="@+id/label_ubic_text_view" />
 
      <TextView
-         android:id="@+id/textView7"
+         android:id="@+id/temperatura_text_view"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginStart="16dp"
@@ -117,11 +113,11 @@
          android:text="@string/info_temperatura"
          android:textColor="@color/black"
          android:textSize="12sp"
-         app:layout_constraintStart_toEndOf="@+id/textView6"
-         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+         app:layout_constraintStart_toEndOf="@+id/label_temp_text_view"
+         app:layout_constraintTop_toBottomOf="@+id/ubicacion_text_view" />
 
  <TextView
-     android:id="@+id/textView8"
+     android:id="@+id/label_recomend_text_view"
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:layout_marginStart="12dp"
@@ -133,11 +129,11 @@
      android:textStyle="bold"
      app:layout_constraintBottom_toBottomOf="parent"
      app:layout_constraintStart_toStartOf="parent"
-     app:layout_constraintTop_toBottomOf="@+id/textView6"
+     app:layout_constraintTop_toBottomOf="@+id/label_temp_text_view"
      app:layout_constraintVertical_bias="0.93" />
 
      <TextView
-         android:id="@+id/textView9"
+         android:id="@+id/actividades_text_view"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:layout_marginStart="12dp"
@@ -147,8 +143,8 @@
          android:textColor="@color/black"
          android:textSize="12sp"
          app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintStart_toEndOf="@+id/textView8"
-         app:layout_constraintTop_toBottomOf="@+id/textView7" />
+         app:layout_constraintStart_toEndOf="@+id/label_recomend_text_view"
+         app:layout_constraintTop_toBottomOf="@+id/temperatura_text_view" />
 
      </androidx.constraintlayout.widget.ConstraintLayout>
  </ScrollView>

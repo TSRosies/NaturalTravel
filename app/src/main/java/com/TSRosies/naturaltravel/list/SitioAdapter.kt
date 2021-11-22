@@ -13,7 +13,9 @@ import com.TSRosies.naturaltravel.model.SitioNaturalItem
 import com.squareup.picasso.Picasso
 
 class SitioAdapter(
-    private val sitiosList: ArrayList<SitioNaturalItem>
+    private val sitiosList: ArrayList<SitioNaturalItem>,
+    private val onItemClicked: (SitioNaturalItem)->Unit
+
 )
     :RecyclerView.Adapter<SitioAdapter.ViewHolder>(){
 
@@ -24,6 +26,7 @@ class SitioAdapter(
     }
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val sitionatural=sitiosList[position]
+        holder.itemView.setOnClickListener { onItemClicked(sitiosList[position]) }
         holder.bind(sitionatural)
 
     }
@@ -31,18 +34,18 @@ class SitioAdapter(
 
     class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         private val itemImageView:ImageView = itemView.findViewById(R.id.item_image)
-        private var itemTitleTextView:TextView = itemView.findViewById(R.id.item_title)
-        private var itemDetailTextView:TextView = itemView.findViewById(R.id.item_detail)
-        private var itemPuntajeTextView:TextView = itemView.findViewById(R.id.item_puntaje)
+        private var nombreTextView:TextView = itemView.findViewById(R.id.nombre)
+        private var descripcionTextView:TextView = itemView.findViewById(R.id.descripcion)
+        private var puntajeTextView:TextView = itemView.findViewById(R.id.puntaje)
 
 
 
             fun bind(sitionatural: SitioNaturalItem){
                 Log.d("nombre",sitionatural.nombre)
-                itemTitleTextView.text= sitionatural.nombre
-                itemDetailTextView.text = sitionatural.descripcion
-                itemPuntajeTextView.text = sitionatural.puntaje
-                Picasso.get().load(sitionatural.url).into(itemImageView)
+                nombreTextView.text= sitionatural.nombre
+                descripcionTextView.text = sitionatural.descripcion
+                puntajeTextView.text = sitionatural.puntaje
+                Picasso.get().load(sitionatural.urlImagen).into(itemImageView)
         }
     }
 }

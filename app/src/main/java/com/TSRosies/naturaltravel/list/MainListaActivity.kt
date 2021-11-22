@@ -1,10 +1,13 @@
 package com.TSRosies.naturaltravel.list
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.TSRosies.naturaltravel.R
+import com.TSRosies.naturaltravel.detalle.DetalleActivity
 import com.TSRosies.naturaltravel.model.SitioNatural
 import com.TSRosies.naturaltravel.model.SitioNaturalItem
 import com.google.gson.Gson
@@ -25,14 +28,23 @@ class MainListaActivity : AppCompatActivity() {
         sitioNaturalRecyclerView =findViewById(R.id.SitioNaturalRecyclerView)
 
         //listSitios = createMockSitiosNaturales()
+
         listSitios = loadMockSitiosNaturalesFromJson()
-        sitiosAdapter = SitioAdapter(listSitios)
+        sitiosAdapter = SitioAdapter(listSitios, onItemClicked = {onSitionaturalClicked(it)})
 
         sitioNaturalRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = sitiosAdapter
             setHasFixedSize(false)
         }
+    }
+
+    private fun onSitionaturalClicked(sitionatural: SitioNaturalItem) {
+
+        Log.d ("nombre", sitionatural.nombre)
+        val intent = Intent(this, DetalleActivity::class.java)
+        intent.putExtra("sitionatural",sitionatural)
+        startActivity(intent)
     }
 
     private fun loadMockSitiosNaturalesFromJson(): ArrayList<SitioNaturalItem>{
