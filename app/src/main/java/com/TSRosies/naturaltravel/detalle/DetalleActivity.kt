@@ -3,6 +3,7 @@ package com.TSRosies.naturaltravel.detalle
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
+import android.widget.ImageView
 import com.TSRosies.naturaltravel.R
 import com.TSRosies.naturaltravel.databinding.ActivityDetalleBinding
 import com.TSRosies.naturaltravel.model.SitioNaturalItem
@@ -29,7 +30,7 @@ class DetalleActivity : AppCompatActivity() {
         list.add(CarouselItem(imageDrawable = R.drawable.laguna_de_pedro_palo2 ))
         carousel.addData(list)
 
-        val sitionatural: SitioNaturalItem = intent.extras?.getSerializable("SitioNaturalItem ") as SitioNaturalItem
+        val sitionatural: SitioNaturalItem = intent.extras?.getSerializable("sitionatural") as SitioNaturalItem
 
         with(detalleBinding) {
             nombreTextView.text = sitionatural.nombre
@@ -37,7 +38,7 @@ class DetalleActivity : AppCompatActivity() {
             ubicacionTextView.text = sitionatural.ubicacion
             temperaturaTextView.text = sitionatural.temperatura
             actividadesTextView.text = sitionatural.actividades
-         //   Picasso.get().load(sitionatural.urlImagen1).into(carousel)
+        //   Picasso.get().load(sitionatural.urlImagen1).into()
 
         }
 
