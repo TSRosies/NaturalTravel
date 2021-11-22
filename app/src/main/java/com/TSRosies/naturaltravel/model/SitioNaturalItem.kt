@@ -1,4 +1,4 @@
-package com.TSRosies.naturaltravel
+package com.TSRosies.naturaltravel.model
 
 
 import com.google.gson.annotations.SerializedName
