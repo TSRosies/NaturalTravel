@@ -25,10 +25,7 @@ class DetalleActivity : AppCompatActivity() {
         setContentView(detalleBinding.root)
         /* setContentView(R.layout.activity_detalle) */
 
-        val carousel: ImageCarousel = findViewById(R.id.imagen_carousel)
-        list.add(CarouselItem(imageDrawable = R.drawable.laguna_de_pedro_palo))
-        list.add(CarouselItem(imageDrawable = R.drawable.laguna_de_pedro_palo2 ))
-        carousel.addData(list)
+
 
         val sitionatural: SitioNaturalItem = intent.extras?.getSerializable("sitionatural") as SitioNaturalItem
 
@@ -38,7 +35,11 @@ class DetalleActivity : AppCompatActivity() {
             ubicacionTextView.text = sitionatural.ubicacion
             temperaturaTextView.text = sitionatural.temperatura
             actividadesTextView.text = sitionatural.actividades
-        //   Picasso.get().load(sitionatural.urlImagen1).into()
+            val carousel: ImageCarousel = findViewById(R.id.imagen_carousel)
+            list.add(CarouselItem(imageUrl = sitionatural.urlImagen1))
+            list.add(CarouselItem(imageUrl = sitionatural.urlImagen2 ))
+            carousel.addData(list)
+
 
         }
 
