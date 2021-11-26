@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.gson.Gson
 import com.tsrosies.naturaltravel.databinding.FragmentListBinding
@@ -42,6 +43,7 @@ class ListFragment : Fragment() {
     private fun onSitionaturalClicked(sitionatural: SitioNaturalItem) {
 
         //TODO programar detalle
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitionatural = sitionatural))
     }
 
     private fun loadMockSitiosNaturalesFromJson(): ArrayList<SitioNaturalItem>{
