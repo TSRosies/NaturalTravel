@@ -4,46 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#19456B"
+    android:background="@color/bluedark"
     tools:context=".list.ListFragment">
 
-    <TextView
-        android:id="@+id/imageview"
-        style="@style/Texto_Titulo_Lista"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="112dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/app_name"
-        android:textAlignment="center"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/SitioNaturalRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginTop="20dp"
         android:background="#11698E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageview"
-        app:layout_constraintVertical_bias="1.0"
         tools:listitem="@layout/card_layout" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        app:layout_constraintBottom_toTopOf="@+id/SitioNaturalRecyclerView"
-        app:layout_constraintEnd_toStartOf="@+id/imageview"
-        app:layout_constraintHorizontal_bias="0.806"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.592"
-        app:srcCompat="@drawable/ic_launcher_playstore" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
