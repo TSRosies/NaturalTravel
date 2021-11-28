@@ -10,6 +10,7 @@ import com.tsrosies.naturaltravel.databinding.FragmentDetailBinding
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 import com.tsrosies.naturaltravel.R
+import com.tsrosies.naturaltravel.main.MainActivity
 
 class DetailFragment : Fragment() {
 
@@ -17,6 +18,10 @@ class DetailFragment : Fragment() {
     val list = mutableListOf<CarouselItem>()
     private val args: DetailFragmentArgs by navArgs()
 
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        (activity as MainActivity?)?.showIcon()
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
