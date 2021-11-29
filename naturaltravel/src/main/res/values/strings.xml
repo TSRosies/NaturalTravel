@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">NaturalTravel</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="titulo_laguna_de_pedro_palo">Laguna de Pedro Palo</string>
+    <string name="subt_info_pedro_palo">Información general:</string>
+    <string name="info_pedro_palo">Son muchas las leyendas sobre encantamientos y poderes mágicos, pero esta es considerada la única Laguna Sagrada de los Muiscas localizada en tierras bajas y la mayor reserva hídrica de la provincia del Tequendama. Su nombre original es TENASUCA y es de gran importancia histórica, pues en esta región se efectuaron los primero viajes de la Real Expedición Botánica en 1783.
+    Se trata de una laguna de forma casi circular que tiene a su alrededor dos paisajes, uno en el que subsiste parte del bosque tropical andino que en algún tiempo rodeó las aguas, y el otro, pastizales y cultivos en fincas aledañas. El espejo de agua es de aproximadamente 10 hectáreas y se llega por el antiguo camino colonial.
+    </string>
+    <string name="subt_ubicacion">Ubicación:</string>
+    <string name="descripcion_imagen">Laguna con pequeñas mesetas</string>
+    <string name="info_ubicación">vereda Catalamonte, municipio de Tena / Cund.</string>
+    <string name="subt_temperatura">Temperatura:</string>
+    <string name="info_temperatura">promedio 16 °C </string>
+    <string name="subt_sitios_act">Sitios y actividades recomendadas:</string>
+    <string name="info_sitios_act">Senderismo</string>
+    <string name="boton_inicio">Comenzar visita</string>
+    <string name="registro">Registro de un Sitio natural</string>
+    <string name="descripcion_sitio">Descripción</string>
+    <string name="puntaje_sitio">Puntuación</string>
+    <string name="nombre_sitio">VaNomSitio</string>
+
+
+    <!-- Sync Preferences -->
+    <string name="notifications">Notificaciones</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_list">Lista</string>
+    <string name="title_detail">Detalle</string>
+    <string name="title_preference">Preferencias</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="preferences">Preferencias</string>
+
+</resources>
