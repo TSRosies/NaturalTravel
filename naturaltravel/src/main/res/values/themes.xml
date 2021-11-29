@@ -42,4 +42,14 @@
     <style name="Texto_especial" parent="Texto_normal">
         <item name="android:textStyle">italic</item>
     </style>
+
+    <style name="Theme.NaturalTravel.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.NaturalTravel.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.NaturalTravel.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
 </resources>
