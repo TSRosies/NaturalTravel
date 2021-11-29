@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".detalle.DetalleActivity">
+
+
+        <TextView
+            android:id="@+id/nombre_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/titulo_laguna_de_pedro_palo"
+            style="@style/Texto_Titulo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--  <ImageView
+             android:id="@+id/imageView"
+             android:layout_width="390dp"
+             android:layout_height="300dp"
+             android:layout_marginTop="18dp"
+
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent"
+             app:layout_constraintTop_toBottomOf="@+id/textView"
+             app:srcCompat="@drawable/laguna_de_pedro_palo" />-->
+
+        <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+            android:id="@+id/imagen_carousel"
+            android:layout_width="410dp"
+            android:layout_height="268dp"
+            android:contentDescription="@string/descripcion_imagen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nombre_text_view" />
+
+        <TextView
+            android:id="@+id/label_info_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="41dp"
+            android:text="@string/subt_info_pedro_palo"
+            style="@style/Texto_Titulo_Sitio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagen_carousel" />
+
+        <TextView
+            android:id="@+id/descripcion2_text_view"
+            style="@style/Texto_normal"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:justificationMode="inter_word"
+            android:text="@string/info_pedro_palo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_info_text_view" />
+
+        <TextView
+            android:id="@+id/label_ubic_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/subt_ubicacion"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descripcion2_text_view" />
+
+        <TextView
+            android:id="@+id/ubicacion_text_view"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/info_ubicación"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/label_ubic_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/descripcion2_text_view" />
+
+        <TextView
+            android:id="@+id/label_temp_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/subt_temperatura"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ubicacion_text_view" />
+
+        <TextView
+            android:id="@+id/temperatura_text_view"
+            android:layout_width="273dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/info_temperatura"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/label_temp_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/ubicacion_text_view" />
+
+        <TextView
+            android:id="@+id/label_recomend_text_view"
+            android:layout_width="85dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/subt_sitios_act"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/temperatura_text_view"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/actividades_text_view"
+            android:layout_width="277dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/info_sitios_act"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/label_recomend_text_view"
+            app:layout_constraintTop_toBottomOf="@+id/temperatura_text_view"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
