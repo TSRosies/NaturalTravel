@@ -18,6 +18,7 @@ class DetailFragment : Fragment() {
     val list = mutableListOf<CarouselItem>()
     private val args: DetailFragmentArgs by navArgs()
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         (activity as MainActivity?)?.showIcon()
