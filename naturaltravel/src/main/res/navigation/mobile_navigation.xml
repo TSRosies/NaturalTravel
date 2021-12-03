@@ -9,7 +9,7 @@
     <fragment
         android:id="@+id/navigation_list"
         android:name="com.tsrosies.naturaltravel.list.ListFragment"
-        android:label="fragment_list"
+        android:label="@string/title_list"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_detailFragment"
@@ -26,9 +26,18 @@
         <argument
             android:name="sitionatural"
             app:argType="com.tsrosies.naturaltravel.model.SitioNaturalItem" />
+        <action
+            android:id="@+id/action_navigation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
-    android:id="@+id/navigation_preference"
-    android:name="com.tsrosies.naturaltravel.preference.SettingsFragment"
-    android:label="@string/title_preference" />
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.tsrosies.naturaltravel.preference.SettingsFragment"
+        android:label="@string/title_preference" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.tsrosies.naturaltravel.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 
 </navigation>
