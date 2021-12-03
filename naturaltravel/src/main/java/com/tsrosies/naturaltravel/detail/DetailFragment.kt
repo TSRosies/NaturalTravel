@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.navArgs
 import com.tsrosies.naturaltravel.databinding.FragmentDetailBinding
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
@@ -15,6 +16,7 @@ import com.tsrosies.naturaltravel.main.MainActivity
 class DetailFragment : Fragment() {
 
     private lateinit var detailBinding: FragmentDetailBinding
+    private val detailViewModel: DetailViewModel by viewModels()
     val list = mutableListOf<CarouselItem>()
     private val args: DetailFragmentArgs by navArgs()
 

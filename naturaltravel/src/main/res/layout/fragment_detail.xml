@@ -16,7 +16,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/titulo_laguna_de_pedro_palo"
             style="@style/Texto_Titulo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:layout_marginTop="41dp"
-            android:text="@string/subt_info_pedro_palo"
+            android:text="@string/subt_info_general"
             style="@style/Texto_Titulo_Sitio"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imagen_carousel" />
@@ -61,7 +60,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:justificationMode="inter_word"
-            android:text="@string/info_pedro_palo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/label_info_text_view" />
 
@@ -84,7 +82,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="34dp"
             android:layout_marginTop="8dp"
-            android:text="@string/info_ubicación"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/label_ubic_text_view"
@@ -109,7 +106,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="8dp"
-            android:text="@string/info_temperatura"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/label_temp_text_view"
@@ -137,7 +133,6 @@
             android:layout_marginStart="6dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/info_sitios_act"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"

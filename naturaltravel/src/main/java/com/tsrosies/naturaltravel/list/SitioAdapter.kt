@@ -18,7 +18,6 @@ class SitioAdapter(
 )
     :RecyclerView.Adapter<SitioAdapter.ViewHolder>(){
 
-
     override fun onCreateViewHolder(parent: ViewGroup, Viewtype: Int): ViewHolder {
         val v = LayoutInflater.from(parent.context).inflate(R.layout.card_layout,parent, false)
         return ViewHolder(v)
@@ -31,6 +30,11 @@ class SitioAdapter(
     }
     override fun getItemCount(): Int = sitiosList.size
 
+    fun appendItems(newItems: ArrayList<SitioNaturalItem>) {
+        sitiosList.clear()
+        sitiosList.addAll(newItems)
+        notifyDataSetChanged()
+    }
     class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         private val itemImageView:ImageView = itemView.findViewById(R.id.item_image)
         private var nombreTextView:TextView = itemView.findViewById(R.id.nombre)

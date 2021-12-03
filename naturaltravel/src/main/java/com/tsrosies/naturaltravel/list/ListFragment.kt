@@ -6,52 +6,59 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.gson.Gson
 import com.tsrosies.naturaltravel.databinding.FragmentListBinding
-import com.tsrosies.naturaltravel.model.SitioNatural
+import com.tsrosies.naturaltravel.main.MainActivity
 import com.tsrosies.naturaltravel.model.SitioNaturalItem
 
 
 class ListFragment : Fragment() {
 
     private lateinit var listBinding: FragmentListBinding
-    private lateinit var sitiosAdapter: SitioAdapter
-    private lateinit var listSitios: ArrayList<SitioNaturalItem>
+    private lateinit var listViewModel: ListViewModel
+    private lateinit var sitiosNaturalesAdapter: SitioAdapter
+    private var listSitiosnaturales: ArrayList<SitioNaturalItem> = arrayListOf()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         listBinding = FragmentListBinding.inflate(inflater, container, false)
-
+        listViewModel = ViewModelProvider(this)[ListViewModel::class.java]
         return listBinding.root
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        listSitios = loadMockSitiosNaturalesFromJson()
-        sitiosAdapter = SitioAdapter(listSitios, onItemClicked = {onSitionaturalClicked(it)})
+        (activity as MainActivity?)?.hideIcon()
+        listViewModel.loadMockSitioNaturalFromJson(context?.assets?.open("sitionatural.json"))
+
+        listViewModel.onSitiosnaturalesLoaded.observe(viewLifecycleOwner, { result ->
+            onSitiosnaturalesLoadedSubscribe(result)
+        })
+
+        sitiosNaturalesAdapter = SitioAdapter(listSitiosnaturales, onItemClicked = { onSitionaturalClicked(it) } )
+
         listBinding.SitioNaturalRecyclerView.apply {
             layoutManager = LinearLayoutManager(context)
-            adapter = sitiosAdapter
+            adapter = sitiosNaturalesAdapter
             setHasFixedSize(false)
         }
     }
 
+    private fun onSitiosnaturalesLoadedSubscribe(result: ArrayList<SitioNaturalItem>?) {
+        result?.let { listSitiosnaturales->
+            sitiosNaturalesAdapter.appendItems(listSitiosnaturales)
+            /*
+            // TODO: revisar feedback
+            this.listSitiosnaturales = listSitiosnaturales
+            SitiosAdapter.notifyDataSetChanged()
+            */
+        }
+    }
+
     private fun onSitionaturalClicked(sitionatural: SitioNaturalItem) {
-
-        //TODO programar detalle
-        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitionatural = sitionatural))
+        findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitionatural= sitionatural))
     }
-
-    private fun loadMockSitiosNaturalesFromJson(): ArrayList<SitioNaturalItem>{
-        val sitioNaturalString:String = context?.assets?.open("sitionatural.json")?.bufferedReader().use{it!!.readText()} //TODO pendiente modificar !!
-        val gson = Gson()
-        val data = gson.fromJson(sitioNaturalString, SitioNatural::class.java)
-        return data
-    }
-
-
 }
