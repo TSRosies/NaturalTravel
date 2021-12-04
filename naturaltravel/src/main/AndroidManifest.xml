@@ -29,35 +29,37 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
-
-        <activity
-            android:name=".tabbed.TabbedActivity"
-            android:exported="true"
-            android:label="@string/title_activity_tabbed"
-            android:theme="@style/Theme.NaturalTravel.NoActionBar" />
+            android:value="${MAPS_API_KEY}"/>
+        <!--  android:value="@string/google_maps_key" -->
 
 
-        <activity
-            android:name=".drawer.DrawerActivity"
-            android:exported="true"
-            android:label="@string/title_activity_drawer"
-            android:theme="@style/Theme.NaturalTravel.NoActionBar"/>
+      <activity
+          android:name=".tabbed.TabbedActivity"
+          android:exported="true"
+          android:label="@string/title_activity_tabbed"
+          android:theme="@style/Theme.NaturalTravel.NoActionBar" />
 
-        <activity
-            android:name=".bottom.BottomActivity"
-            android:exported="true"
-            android:label="@string/title_activity_bottom"/>
 
-        <activity
-            android:name=".main.MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+      <activity
+          android:name=".drawer.DrawerActivity"
+          android:exported="true"
+          android:label="@string/title_activity_drawer"
+          android:theme="@style/Theme.NaturalTravel.NoActionBar"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+      <activity
+          android:name=".bottom.BottomActivity"
+          android:exported="true"
+          android:label="@string/title_activity_bottom"/>
+
+      <activity
+          android:name=".main.MainActivity"
+          android:exported="true">
+          <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+
+              <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+      </activity>
+  </application>
 
 </manifest>
