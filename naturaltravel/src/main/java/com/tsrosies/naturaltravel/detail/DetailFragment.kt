@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.tsrosies.naturaltravel.databinding.FragmentDetailBinding
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
@@ -25,6 +26,7 @@ class DetailFragment : Fragment() {
         super.onCreate(savedInstanceState)
         (activity as MainActivity?)?.showIcon()
     }
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -47,8 +49,11 @@ class DetailFragment : Fragment() {
             val carousel: ImageCarousel = view.findViewById(R.id.imagen_carousel)
             list.add(CarouselItem(imageUrl = sitionatural.urlImagen1))
             list.add(CarouselItem(imageUrl = sitionatural.urlImagen2))
-           carousel.addData(list)
+            carousel.addData(list)
 
+            mapButton.setOnClickListener {
+                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment())
+            }
         }
     }
 }
