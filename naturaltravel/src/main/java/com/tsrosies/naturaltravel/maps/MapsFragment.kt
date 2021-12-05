@@ -6,15 +6,19 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import androidx.navigation.fragment.navArgs
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.tsrosies.naturaltravel.R
+import com.tsrosies.naturaltravel.databinding.FragmentMapsBinding
+import com.tsrosies.naturaltravel.detail.DetailFragmentArgs
 
 class MapsFragment : Fragment() {
+    private lateinit var mapsBinding: FragmentMapsBinding
+    private val args: DetailFragmentArgs by navArgs()
 
     private val callback = OnMapReadyCallback { googleMap ->
         /**
@@ -31,15 +35,26 @@ class MapsFragment : Fragment() {
         googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))*/
 
-        val cundinamarca = LatLng(6.2428525,-75.5835155)
-        googleMap.addMarker(
-            MarkerOptions()
-                .position(cundinamarca)
-                .title("aqui es un sitio natural")
-                .snippet("Cundinamarca")
-        )
-        googleMap.addMarker(MarkerOptions().position(cundinamarca).title("Cundinamarca"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cundinamarca,15F))
+        fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+            super.onViewCreated(view, savedInstanceState)
+            val sitionatural = args.sitionatural
+            with(mapsBinding) {
+                val nombre = sitionatural.nombre
+                val latitud = sitionatural.latitud
+                val longitud = sitionatural.longitud
+
+                val ubicacion = LatLng(latitud, longitud)
+                googleMap.addMarker(
+                    MarkerOptions()
+                        .position(ubicacion)
+                        .title("aqui es un sitio natural")
+                        .snippet("Cundinamarca")
+                )
+                googleMap.addMarker(MarkerOptions().position(ubicacion).title("Cundinamarca"))
+                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacion, 15F))
+            }
+        }
+
     }
 
     override fun onCreateView(
