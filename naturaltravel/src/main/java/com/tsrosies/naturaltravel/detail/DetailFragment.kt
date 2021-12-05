@@ -46,6 +46,8 @@ class DetailFragment : Fragment() {
             ubicacionTextView.text = sitionatural.ubicacion
             temperaturaTextView.text = sitionatural.temperatura
             actividadesTextView.text = sitionatural.actividades
+
+
             val carousel: ImageCarousel = view.findViewById(R.id.imagen_carousel)
             list.add(CarouselItem(imageUrl = sitionatural.urlImagen1))
             list.add(CarouselItem(imageUrl = sitionatural.urlImagen2))
