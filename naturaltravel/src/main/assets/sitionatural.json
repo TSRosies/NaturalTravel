@@ -10,8 +10,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437497/Vista%20lista/parque_pionono_vista_lista_adlzpw.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357238/NaturalTravelApp/parque_ecologico_pionono2_q83duz.png",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357237/NaturalTravelApp/parque_ecologico_pionono3_oykqfs.png",
-    "latitud": 4.9052178,
-    "longitud" : -73.9230762
+    "latitud": 4.9052629,
+    "longitud" : -73.9209848
   },
   {
     "nombre": "Termales  Santa Ana y Santa Lucia",
@@ -24,8 +24,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437499/Vista%20lista/termal_santa_ana_vista_lista_dkvdbo.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/termal_santa_ana_2_qwn7ej.jpg",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/termal_santa_ana_3_wjxaf3.jpg",
-    "latitud": 4.5450656,
-    "longitud" : -74.5378801
+    "latitud": 4.545269,
+    "longitud" : -74.535698
   },
   {
     "nombre": "El Salto de Las Monjas",
@@ -38,8 +38,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/salto_monjas_vista_lista_qemm7e.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357238/NaturalTravelApp/salto_mojas_3_zvr1wf.jpg",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357238/NaturalTravelApp/salto_mojas_2_j2zag4.jpg",
-    "latitud": 4.6905985,
-    "longitud" : -74.4464474
+    "latitud": 4.632272,
+    "longitud" : -74.462992
   },
   {
     "nombre": "Montaña del Oso",
@@ -52,8 +52,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/montana_oso_vista_lista_ohg3kl.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637358164/NaturalTravelApp/parque_montana_oso_2_kbflvp.png",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357238/NaturalTravelApp/parque_montana_oso3_swluj3.png",
-    "latitud": 4.8648426,
-    "longitud" : -74.0859378
+    "latitud": 4.824562,
+    "longitud" : -74.014194
   },
   {
     "nombre": "Bioparque la reserva",
@@ -66,8 +66,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437496/Vista%20lista/bioparque_reserva_vista_lista_qsw2un.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/bioparque_la_reserva_hhd7nf.jpg",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/bioparque_la_reserva_2_v2wwec.jpg",
-    "latitud": 4.8648426,
-    "longitud" : -74.0859378
+    "latitud": 4.808198,
+    "longitud" : -74.116889
   },
   {
     "nombre": "Tygüa Magüe Ecoparque",
@@ -80,8 +80,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/parque_tygua_vista_lista_zyi574.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357241/NaturalTravelApp/ecoparque_tigua2_bsvszh.png",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357241/NaturalTravelApp/ecoparque_tigua_pd6uw1.png",
-    "latitud": 4.8648426,
-    "longitud" : -74.0859378
+    "latitud": 4.920112,
+    "longitud" : -74.077893
   },
   {
     "nombre": "Parque Natural Los Tunos",
@@ -94,8 +94,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/los_tunos_vista_lista_rxm9g9.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637358163/NaturalTravelApp/parque_natural_los_tunos_3_jzr4cj.jpg",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357237/NaturalTravelApp/parque_natural_los_tunos_ipbary.jpg",
-    "latitud": 4.8648426,
-    "longitud" : -74.0859378
+    "latitud": 4.567402,
+    "longitud" : -74.318203
   },
   {
     "nombre": "Laguna de Pedro Palo",
@@ -108,8 +108,8 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437499/Vista%20lista/pedro_palo_vista_lista_yqwbjf.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357240/NaturalTravelApp/laguna_de_pedro_palo_4_egcgzb.jpg",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357240/NaturalTravelApp/laguna_de_pedro_palo_cg3k02.jpg",
-    "latitud": 4.8648426,
-    "longitud" : -74.0859378
+    "latitud": 4.688905,
+    "longitud" : -74.382325
   },
   {
     "nombre": "Laguna de Salcedo",
@@ -122,7 +122,7 @@
     "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/laguna_salcedo_vista_lista_eetdii.png",
     "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357241/NaturalTravelApp/laguna_salcedo_fqpvh8.jpg",
     "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357237/NaturalTravelApp/laguna_salcedo_2_jaxlk8.jpg",
-    "latitud": 4.8648426,
-    "longitud" : -74.0859378
+    "latitud": 4.535416,
+    "longitud" : -74.609693
   }
 ]
