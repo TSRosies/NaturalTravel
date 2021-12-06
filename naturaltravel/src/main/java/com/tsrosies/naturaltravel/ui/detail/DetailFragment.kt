@@ -54,7 +54,7 @@ class DetailFragment : Fragment() {
             carousel.addData(list)
 
             mapButton.setOnClickListener {
-                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment())
+                findNavController().navigate(DetailFragmentDirections.actionNavigationDetailToMapsFragment(sitionatural))
             }
         }
     }
