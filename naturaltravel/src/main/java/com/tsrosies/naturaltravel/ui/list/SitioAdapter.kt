@@ -1,4 +1,4 @@
-package com.tsrosies.naturaltravel.list
+package com.tsrosies.naturaltravel.ui.list
 
 import android.util.Log
 import android.view.LayoutInflater

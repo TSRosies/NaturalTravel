@@ -1,4 +1,4 @@
-package com.tsrosies.naturaltravel.drawer
+package com.tsrosies.naturaltravel.ui.drawer
 
 import android.os.Bundle
 import android.view.Menu

@@ -1,12 +1,11 @@
 package com.tsrosies.naturaltravel.maps
 
-import androidx.fragment.app.Fragment
-
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.navArgs
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
@@ -16,7 +15,10 @@ import com.tsrosies.naturaltravel.R
 
 class MapsFragment : Fragment() {
 
+
+    private val args: MapsFragmentArgs by navArgs()
     private val callback = OnMapReadyCallback { googleMap ->
+
         /**
          * Manipulates the map once available.
          * This callback is triggered when the map is ready to be used.
@@ -31,16 +33,20 @@ class MapsFragment : Fragment() {
         googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))*/
 
-        val cundinamarca = LatLng(6.2428525,-75.5835155)
+        val sitionatural = args.sitionatural
+
+        val ubicacion = LatLng(sitionatural.latitud,sitionatural.longitud)
         googleMap.addMarker(
             MarkerOptions()
-                .position(cundinamarca)
-                .title("aqui es un sitio natural")
-                .snippet("Cundinamarca")
+                .position(ubicacion)
+                .title(sitionatural.nombre)
+                .snippet(sitionatural.puntaje)
         )
-        googleMap.addMarker(MarkerOptions().position(cundinamarca).title("Cundinamarca"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cundinamarca,15F))
+        googleMap.addMarker(MarkerOptions().position(ubicacion).title(sitionatural.nombre))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacion, 15F))
     }
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater,

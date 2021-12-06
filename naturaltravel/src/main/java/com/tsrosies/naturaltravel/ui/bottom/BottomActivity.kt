@@ -1,4 +1,4 @@
-package com.tsrosies.naturaltravel.bottom
+package com.tsrosies.naturaltravel.ui.bottom
 
 
 import android.os.Bundle

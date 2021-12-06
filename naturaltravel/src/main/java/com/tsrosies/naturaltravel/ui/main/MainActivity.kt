@@ -1,4 +1,4 @@
-package com.tsrosies.naturaltravel.main
+package com.tsrosies.naturaltravel.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import android.view.MenuItem
 import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import com.tsrosies.naturaltravel.preference.SettingsFragment
+import com.tsrosies.naturaltravel.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
