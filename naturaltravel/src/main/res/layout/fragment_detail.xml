@@ -13,10 +13,10 @@
 
         <TextView
             android:id="@+id/nombre_text_view"
+            style="@style/Texto_Titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            style="@style/Texto_Titulo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -43,12 +43,12 @@
 
         <TextView
             android:id="@+id/label_info_text_view"
+            style="@style/Texto_Titulo_Sitio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:layout_marginTop="41dp"
             android:text="@string/subt_info_general"
-            style="@style/Texto_Titulo_Sitio"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imagen_carousel" />
 
@@ -129,7 +129,7 @@
             android:id="@+id/actividades_text_view"
             android:layout_width="277dp"
             android:layout_height="49dp"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
             android:textColor="@color/black"
@@ -137,20 +137,21 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/label_recomend_text_view"
             app:layout_constraintTop_toBottomOf="@+id/temperatura_text_view"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.0" />
 
         <ImageButton
             android:id="@+id/mapButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="13dp"
-            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
             android:contentDescription="@null"
             android:minHeight="48dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@id/actividades_text_view"
+            app:layout_constraintVertical_bias="0.0"
             app:srcCompat="@drawable/ic_map"
             tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
 
