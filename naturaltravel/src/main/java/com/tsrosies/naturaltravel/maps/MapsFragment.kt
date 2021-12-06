@@ -13,14 +13,14 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.tsrosies.naturaltravel.R
-import com.tsrosies.naturaltravel.databinding.FragmentMapsBinding
-import com.tsrosies.naturaltravel.detail.DetailFragmentArgs
+
 
 class MapsFragment : Fragment() {
-    private lateinit var mapsBinding: FragmentMapsBinding
-    private val args: DetailFragmentArgs by navArgs()
 
+
+    private val args: MapsFragmentArgs by navArgs()
     private val callback = OnMapReadyCallback { googleMap ->
+
         /**
          * Manipulates the map once available.
          * This callback is triggered when the map is ready to be used.
@@ -35,27 +35,20 @@ class MapsFragment : Fragment() {
         googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))*/
 
-        fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-            super.onViewCreated(view, savedInstanceState)
-            val sitionatural = args.sitionatural
-            with(mapsBinding) {
-                val nombre = sitionatural.nombre
-                val latitud = sitionatural.latitud
-                val longitud = sitionatural.longitud
+        val sitionatural = args.sitionatural
 
-                val ubicacion = LatLng(latitud, longitud)
-                googleMap.addMarker(
-                    MarkerOptions()
-                        .position(ubicacion)
-                        .title("aqui es un sitio natural")
-                        .snippet("Cundinamarca")
-                )
-                googleMap.addMarker(MarkerOptions().position(ubicacion).title("Cundinamarca"))
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacion, 15F))
-            }
-        }
-
+        val ubicacion = LatLng(sitionatural.latitud,sitionatural.longitud)
+        googleMap.addMarker(
+            MarkerOptions()
+                .position(ubicacion)
+                .title(sitionatural.nombre)
+                .snippet(sitionatural.puntaje)
+        )
+        googleMap.addMarker(MarkerOptions().position(ubicacion).title(sitionatural.nombre))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacion, 15F))
     }
+
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
