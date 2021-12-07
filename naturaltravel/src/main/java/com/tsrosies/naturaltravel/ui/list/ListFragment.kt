@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.tsrosies.naturaltravel.databinding.FragmentListBinding
-import com.tsrosies.naturaltravel.list.ListFragmentDirections
+import com.tsrosies.naturaltravel.ui.list.ListFragmentDirections
 import com.tsrosies.naturaltravel.ui.main.MainActivity
 import com.tsrosies.naturaltravel.model.SitioNaturalItem
 

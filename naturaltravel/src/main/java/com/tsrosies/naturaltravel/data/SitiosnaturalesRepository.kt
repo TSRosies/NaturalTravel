@@ -1,5 +1,5 @@
 package com.tsrosies.naturaltravel.data
 
 class SitiosnaturalesRepository {
-    suspend fun getSitiosnaturales() = ApiFactory.retrofit.getSitiosnaturales()
+    suspend fun getSitiosNaturales() = ApiFactory.retrofit.getSitiosnaturales()
 }

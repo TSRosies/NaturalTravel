@@ -21,13 +21,13 @@ class ListViewModel : ViewModel() {
 
     fun getSitiosnaturalesFromServer(){
         GlobalScope.launch(Dispatchers.IO) {
-            sitiosnaturalesLoad.postValue(repository.getSitiosnaturales())
+            sitiosnaturalesLoad.postValue(repository.getSitiosNaturales())
         }
     }
 
-    fun loadMockSitioNaturalFromJson(sitiosNaturalesString: InputStream?) {
-        val sitiosNaturalesString = sitiosNaturalesString?.bufferedReader().use { it!!.readText() }
-        val gson = Gson()
-        sitiosnaturalesLoad.value = gson.fromJson(sitiosNaturalesString, SitioNatural::class.java)
-    }
+   // fun loadMockSitioNaturalFromJson(sitiosNaturalesString: InputStream?) {
+   //     val sitiosNaturalesString = sitiosNaturalesString?.bufferedReader().use { it!!.readText() }
+   //     val gson = Gson()
+     //   sitiosnaturalesLoad.value = gson.fromJson(sitiosNaturalesString, SitioNatural::class.java)
+   // }
 }

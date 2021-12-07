@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface ApiService {
 
-    @GET("tsrosies.naturaltravel.SitioNat")
+    @GET("TSRosies/NaturalTravel/sitionatural")
     suspend fun getSitiosnaturales(): SitioNatural
 
 }
