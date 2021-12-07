@@ -12,6 +12,8 @@ import com.tsrosies.naturaltravel.databinding.FragmentDetailBinding
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 import com.tsrosies.naturaltravel.R
+import com.tsrosies.naturaltravel.detail.DetailFragmentArgs
+import com.tsrosies.naturaltravel.detail.DetailFragmentDirections
 import com.tsrosies.naturaltravel.ui.main.MainActivity
 
 class DetailFragment : Fragment() {
