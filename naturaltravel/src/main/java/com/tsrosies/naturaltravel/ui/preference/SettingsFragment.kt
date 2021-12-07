@@ -1,11 +1,11 @@
-package com.tsrosies.naturaltravel.preference
+package com.tsrosies.naturaltravel.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.tsrosies.naturaltravel.R
-import com.tsrosies.naturaltravel.main.MainActivity
+import com.tsrosies.naturaltravel.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

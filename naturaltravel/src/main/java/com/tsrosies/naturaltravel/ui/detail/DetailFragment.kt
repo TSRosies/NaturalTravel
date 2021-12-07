@@ -1,4 +1,4 @@
-package com.tsrosies.naturaltravel.detail
+package com.tsrosies.naturaltravel.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -12,7 +12,9 @@ import com.tsrosies.naturaltravel.databinding.FragmentDetailBinding
 import org.imaginativeworld.whynotimagecarousel.ImageCarousel
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 import com.tsrosies.naturaltravel.R
-import com.tsrosies.naturaltravel.main.MainActivity
+import com.tsrosies.naturaltravel.ui.detail.DetailFragmentArgs
+import com.tsrosies.naturaltravel.ui.detail.DetailFragmentDirections
+import com.tsrosies.naturaltravel.ui.main.MainActivity
 
 class DetailFragment : Fragment() {
 

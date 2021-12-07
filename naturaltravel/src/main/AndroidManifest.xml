@@ -34,25 +34,25 @@
 
 
       <activity
-          android:name=".tabbed.TabbedActivity"
+          android:name="com.tsrosies.naturaltravel.ui.tabbed.TabbedActivity"
           android:exported="true"
           android:label="@string/title_activity_tabbed"
           android:theme="@style/Theme.NaturalTravel.NoActionBar" />
 
 
       <activity
-          android:name=".drawer.DrawerActivity"
+          android:name="com.tsrosies.naturaltravel.ui.drawer.DrawerActivity"
           android:exported="true"
           android:label="@string/title_activity_drawer"
           android:theme="@style/Theme.NaturalTravel.NoActionBar"/>
 
       <activity
-          android:name=".bottom.BottomActivity"
+          android:name="com.tsrosies.naturaltravel.ui.bottom.BottomActivity"
           android:exported="true"
           android:label="@string/title_activity_bottom"/>
 
       <activity
-          android:name=".main.MainActivity"
+          android:name="com.tsrosies.naturaltravel.ui.main.MainActivity"
           android:exported="true">
           <intent-filter>
               <action android:name="android.intent.action.MAIN" />

@@ -1,7 +1,6 @@
-package com.tsrosies.naturaltravel.list
+package com.tsrosies.naturaltravel.ui.list
 
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -10,7 +9,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.tsrosies.naturaltravel.databinding.FragmentListBinding
-import com.tsrosies.naturaltravel.main.MainActivity
+import com.tsrosies.naturaltravel.ui.list.ListFragmentDirections
+import com.tsrosies.naturaltravel.ui.main.MainActivity
 import com.tsrosies.naturaltravel.model.SitioNaturalItem
 
 
@@ -32,7 +32,9 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadMockSitioNaturalFromJson(context?.assets?.open("sitionatural.json"))
+     //   listViewModel.loadMockSitioNaturalFromJson(context?.assets?.open("sitionatural.json"))
+
+        listViewModel.getSitiosnaturalesFromServer()
 
         listViewModel.onSitiosnaturalesLoaded.observe(viewLifecycleOwner, { result ->
             onSitiosnaturalesLoadedSubscribe(result)
@@ -62,3 +64,5 @@ class ListFragment : Fragment() {
         findNavController().navigate(ListFragmentDirections.actionListFragmentToDetailFragment(sitionatural= sitionatural))
     }
 }
+
+

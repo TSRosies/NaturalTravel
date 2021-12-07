@@ -1,11 +1,11 @@
-package com.tsrosies.naturaltravel.tabbed
+package com.tsrosies.naturaltravel.ui.tabbed
 
 import android.content.Context
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.tsrosies.naturaltravel.R
-import com.tsrosies.naturaltravel.preference.SettingsFragment
+import com.tsrosies.naturaltravel.ui.preference.SettingsFragment
 
 private val TAB_TITLES = arrayOf(
     R.string.title_list,
