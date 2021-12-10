@@ -1,5 +1,5 @@
 {
-  " sitionatural": [
+  "sitionatural": [
     {
       "nombre": "Parque Ecológico Pionono",
       "descripcion": "Reserva natural, conocido como el cerro de las águilas",
@@ -120,7 +120,7 @@
       "temperatura": "26 grados centigrados",
       "actividades": "recorrido arqueológico",
       "puntaje": "Puntuación: 4",
-      "urlPicture": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/laguna_salcedo_vista_lista_eetdii.png",
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/laguna_salcedo_vista_lista_eetdii.png",
       "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637358544/NaturalTravelApp/laguna_salcedo_3_mwpvd2.jpg",
       "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357237/NaturalTravelApp/laguna_salcedo_2_jaxlk8.jpg",
       "latitud": 4.535570,
