@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/navigation_list"
+    app:startDestination="@id/splashFragment"
     tools:ignore="ExtraText">
 
     <fragment
@@ -42,6 +42,15 @@
         <argument
             android:name="sitionatural"
             app:argType="com.tsrosies.naturaltravel.model.SitioNaturalItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.tsrosies.naturaltravel.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_navigation_list"
+            app:destination="@id/navigation_list" />
     </fragment>
 
 </navigation>
