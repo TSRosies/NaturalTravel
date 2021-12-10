@@ -1,9 +1,9 @@
 {
-  " sitionatural": [
+  "sitionatural": [
     {
       "nombre": "Parque Ecológico Pionono",
-      "descripcion": "Reserva natural, conocido como el cerro de las águilas",
-      "descripcion2": "Conocido como el cerro de las águilas. Por sus características geomorfológicas se ha constituido en una gran reserva forestal para la recarga de acuíferos, su fauna está representada por mamíferos como liebre, zorrillo, armadillos, curíes, aves golondrinas, entre otros.",
+      "descripcion": "Reserva natural, conocida como el cerro de las águilas",
+      "descripcion2": "Por sus características geomorfológicas se ha constituido en una gran reserva forestal para la recarga de acuíferos, su fauna está representada por mamíferos como liebre, zorrillo, armadillos, curíes, aves golondrinas, entre otros.",
       "ubicacion": "Sopó, Cundinamarca",
       "temperatura": "Su temperatura promedio es de 12°C",
       "actividades": "Senderismo",
@@ -16,11 +16,11 @@
     },
     {
       "nombre": "Termales  Santa Ana y Santa Lucia",
-      "descripcion": "Baños medicinales con cientos de minerales.",
-      "descripcion2": "Los baños medicinales de Santa Ana son un afluente que tiene cloruro de sodio, azufre, sulfato de calcio y cientos de minerales que brindan propiedades medicinales.",
+      "descripcion": "Baños medicinales con cientos de minerales",
+      "descripcion2": "Afluente que tiene cloruro de sodio, azufre, sulfato de calcio y cientos de minerales que brindan propiedades medicinales.",
       "ubicacion": "Vereda Santa Rosa, Anapoima, Cundinamarca,Colombia",
       "temperatura": "Oscila entre 28 y 30 ºC",
-      "actividades": "Baños medicionales",
+      "actividades": "Baños medicinales",
       "puntaje": "Puntuación: 5",
       "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437499/Vista%20lista/termal_santa_ana_vista_lista_dkvdbo.png",
       "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637357239/NaturalTravelApp/termal_santa_ana_2_qwn7ej.jpg",
@@ -30,8 +30,8 @@
     },
     {
       "nombre": "El Salto de Las Monjas",
-      "descripcion": "Esta es la caída de agua más importante del río Apulo en su viaje hacia el Bogotá y el Magdalena",
-      "descripcion2": "Hermosa cascada que se encuentra después de una caminata de una hora",
+      "descripcion": "Esta es la caída de agua más importante del río Apulo en su viaje hacia  Bogotá y el Magdalena",
+      "descripcion2": "Hermosa cascada que se encuentra después de una caminata de una hora.",
       "ubicacion": "La Mesa, Cundinamarca",
       "temperatura": "La temperatura promedio en La Mesa es 22.6 °C.",
       "actividades": "Caminatas,nado en el río",
@@ -45,7 +45,7 @@
     {
       "nombre": "Montaña del Oso",
       "descripcion": "Ecoturismo con énfasis en la sensibilización hacia el cuidado del medio ambiente y recursos naturales",
-      "descripcion2": " El principal objetivo es la conservación, excelente sitio para descansar y aprender acerca de la naturaleza",
+      "descripcion2": " El principal objetivo es la conservación, excelente sitio para descansar y aprender acerca de la naturaleza.",
       "ubicacion": "Vereda Yerbabuena en el municipio de Chía",
       "temperatura": "Varía de 7 °C a 19 °C  ",
       "actividades": "Caminatas guiadas",
@@ -73,7 +73,7 @@
     {
       "nombre": "Tygüa Magüe Ecoparque",
       "descripcion": "Lugar de contrastes que cobija gran diversidad botánica que se puede apreciar en esos 300 metros de altura",
-      "descripcion2": "Es un lugar de contrastes, con un recorrido que va desde los 2.600 hasta los 2.920 msnm, y que cobija gran diversidad botánica.  ",
+      "descripcion2": "Es un lugar de contrastes, con un recorrido que va desde los 2.600 hasta los 2.920 msnm.  ",
       "ubicacion": "Tabio, Cundinamarca",
       "temperatura": "Promedio entre 8 y 18 °C.",
       "actividades": "Camping, caminatas",
@@ -86,11 +86,11 @@
     },
     {
       "nombre": "Parque Natural Los Tunos",
-      "descripcion": "Parque natural clasificado como formaciones de montaña muy húmedo o bosques de Nublado",
+      "descripcion": "Parque natural clasificado como formaciones de montaña muy húmedo o bosques de Niebla",
       "descripcion2": "Propuesta ambiental en donde el visitante se relaciona directamente con la naturaleza a través de vivencias en los distintos nichos ecológicos. ",
       "ubicacion": "San Antonio del Tequendama, Km 11.78 troncal del Tequendama",
       "temperatura": "Entre 10 y 16 grados °C",
-      "actividades": "Mirador Salto del Tequendama, Cabaña y Chalet Los Tunos, Senderismo, Avistamiento de aves.",
+      "actividades": "Mirador Salto del Tequendama, Cabaña y Chalet Los Tunos, Senderismo, Avistamiento de aves",
       "puntaje": "Puntuación: 5",
       "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/los_tunos_vista_lista_rxm9g9.png",
       "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637358163/NaturalTravelApp/parque_natural_los_tunos_3_jzr4cj.jpg",
@@ -100,7 +100,7 @@
     },
     {
       "nombre": "Laguna de Pedro Palo",
-      "descripcion": "la única Laguna Sagrada de los Muiscas localizada en tierras bajas",
+      "descripcion": "La única Laguna Sagrada de los Muiscas localizada en tierras bajas",
       "descripcion2": "La mayor reserva hídrica de la provincia del Tequendama.Se trata de una laguna de forma casi circular que tiene a su alrededor dos paisajes, uno en el que subsiste parte del bosque tropical andino y el otro, pastizales y cultivos en fincas aledañas.",
       "ubicacion": "Vereda Catalamonte, municipio de Tena / Cundinamarca",
       "temperatura": "Promedio 16 °C",
@@ -115,12 +115,12 @@
     {
       "nombre": "Laguna de Salcedo",
       "descripcion": "Parque de piedras con petroglifos, fósiles, todo un turismo arqueológico cargado de historia",
-      "descripcion2": "A 850 metros sobre el nivel del mar, y a solo 4 km al oeste de la población de Apulo, es un destino de fácil acceso y atractivo para los caminantes.",
+      "descripcion2": "A 850 metros sobre el nivel del mar y a solo 4 km al oeste de la población de Apulo, es un destino de fácil acceso y atractivo para los caminantes.",
       "ubicacion": "Apulo, Cundinamarca",
       "temperatura": "26 grados centigrados",
-      "actividades": "",
-      "puntaje": "4",
-      "urlPicture": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/laguna_salcedo_vista_lista_eetdii.png",
+      "actividades": "recorrido arqueológico",
+      "puntaje": "Puntuación: 4",
+      "urlImagen": "https://res.cloudinary.com/milecafa/image/upload/v1637437498/Vista%20lista/laguna_salcedo_vista_lista_eetdii.png",
       "urlImagen1": "https://res.cloudinary.com/milecafa/image/upload/v1637358544/NaturalTravelApp/laguna_salcedo_3_mwpvd2.jpg",
       "urlImagen2": "https://res.cloudinary.com/milecafa/image/upload/v1637357237/NaturalTravelApp/laguna_salcedo_2_jaxlk8.jpg",
       "latitud": 4.535570,
