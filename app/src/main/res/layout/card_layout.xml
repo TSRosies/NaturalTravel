@@ -38,9 +38,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.214"
-            app:srcCompat="@drawable/ecoparque_tigua" />
-
+            app:layout_constraintVertical_bias="0.214" />
+        <!--app:srcCompat="@drawable/ecoparque_tigua" />-->
         <TextView
             android:id="@+id/nombre"
             style="@style/Texto_Titulo_Sitio"

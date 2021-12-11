@@ -3,12 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/navigation_list">
+    app:startDestination="@id/splashFragment"
+    tools:ignore="ExtraText">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.tsrosies.naturaltravel.ui.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_navigation_list"
+            app:destination="@id/navigation_list" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_list"
-        android:name="com.tsrosies.naturaltravel.list.ListFragment"
-        android:label="fragment_list"
+        android:name="com.tsrosies.naturaltravel.ui.list.ListFragment"
+        android:label="@string/title_list"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_detailFragment"
@@ -19,15 +30,29 @@
     </fragment>
     <fragment
         android:id="@+id/navigation_detail"
-        android:name="com.tsrosies.naturaltravel.detail.DetailFragment"
-        android:label="DetailFragment"
+        android:name="com.tsrosies.naturaltravel.ui.detail.DetailFragment"
+        android:label="@string/title_detail"
         tools:layout="@layout/fragment_detail">
         <argument
             android:name="sitionatural"
             app:argType="com.tsrosies.naturaltravel.model.SitioNaturalItem" />
+        <action
+            android:id="@+id/action_navigation_detail_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
-    android:id="@+id/navigation_preference"
-    android:name="com.tsrosies.naturaltravel.preference.SettingsFragment"
-    android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/navigation_preference"
+        android:name="com.tsrosies.naturaltravel.ui.preference.SettingsFragment"
+        android:label="@string/title_preference" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.tsrosies.naturaltravel.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <argument
+            android:name="sitionatural"
+            app:argType="com.tsrosies.naturaltravel.model.SitioNaturalItem" />
+    </fragment>
+
 
 </navigation>
