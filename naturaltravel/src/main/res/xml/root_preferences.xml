@@ -12,7 +12,7 @@
             app:dependency="notifications"
             android:defaultValue="false"
             android:key="sound_notification"
-            android:title="Activar sonido de notificaciones"
+            android:title="@string/act_notifications"
             android:icon="@drawable/ic_sound_notifications"/>
 
     </PreferenceCategory>
