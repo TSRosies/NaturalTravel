@@ -32,5 +32,6 @@
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="notifications">Notificaciones</string>
+    <string name="act_notifications">act_notifications</string>
 
 </resources>
