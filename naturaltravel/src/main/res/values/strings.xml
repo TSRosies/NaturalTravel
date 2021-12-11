@@ -16,6 +16,7 @@
 
     <!-- Sync Preferences -->
     <string name="notifications">Notificaciones</string>
+    <string name="act_notifications">Activar sonido de notificaciones</string>
     <string name="title_activity_bottom">BottomActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
