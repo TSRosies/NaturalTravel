@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -13,11 +13,10 @@
 
         <TextView
             android:id="@+id/nombre_text_view"
+            style="@style/Texto_Titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:text="@string/titulo_laguna_de_pedro_palo"
-            style="@style/Texto_Titulo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +26,6 @@
              android:layout_width="390dp"
              android:layout_height="300dp"
              android:layout_marginTop="18dp"
-
              app:layout_constraintEnd_toEndOf="parent"
              app:layout_constraintStart_toStartOf="parent"
              app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -45,12 +43,12 @@
 
         <TextView
             android:id="@+id/label_info_text_view"
+            style="@style/Texto_Titulo_Sitio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:layout_marginTop="41dp"
-            android:text="@string/subt_info_pedro_palo"
-            style="@style/Texto_Titulo_Sitio"
+            android:text="@string/subt_info_general"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imagen_carousel" />
 
@@ -61,7 +59,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="14dp"
             android:justificationMode="inter_word"
-            android:text="@string/info_pedro_palo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/label_info_text_view" />
 
@@ -84,7 +81,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="34dp"
             android:layout_marginTop="8dp"
-            android:text="@string/info_ubicación"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/label_ubic_text_view"
@@ -109,7 +105,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="18dp"
             android:layout_marginTop="8dp"
-            android:text="@string/info_temperatura"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintStart_toEndOf="@+id/label_temp_text_view"
@@ -134,16 +129,33 @@
             android:id="@+id/actividades_text_view"
             android:layout_width="277dp"
             android:layout_height="49dp"
-            android:layout_marginStart="6dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:text="@string/info_sitios_act"
             android:textColor="@color/black"
             android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/label_recomend_text_view"
             app:layout_constraintTop_toBottomOf="@+id/temperatura_text_view"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/mapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@null"
+            android:minHeight="48dp"
+            android:background="@color/light1gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/actividades_text_view"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/ic_map1"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

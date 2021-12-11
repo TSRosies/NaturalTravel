@@ -37,6 +37,8 @@
     <item name="teal" type="color">#008080</item>
     <item name="blueviolet" type="color">#8a2be2</item>
     <item name="darkolivegreen" type="color">#556b2f</item>
+    <item name="dark2olivegreen" type="color">#49572a</item>
+    <item name="dark3olivegreen" type="color">#bac570</item>
     <item name="forestgreen" type="color">#228b22</item>
     <item name="darkcyan" type="color">#008b8b</item>
     <item name="darkorchid" type="color">#9932cc</item>
@@ -113,6 +115,7 @@
     <item name="palegreen" type="color">#98fb98</item>
     <item name="powderblue" type="color">#b0e0e6</item>
     <item name="lightgray" type="color">#d3d3d3</item>
+    <item name="light1gray" type="color">#e3e5e7</item>
     <item name="aquamarine" type="color">#7fffd4</item>
     <item name="pink" type="color">#ffc0cb</item>
     <item name="paleturquoise" type="color">#afeeee</item>

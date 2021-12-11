@@ -24,5 +24,9 @@ data class SitioNaturalItem(
     @SerializedName("urlImagen1")
     val urlImagen1: String,
     @SerializedName("urlImagen2")
-    val urlImagen2: String
+    val urlImagen2: String,
+    @SerializedName("latitud")
+    val latitud: Double,
+    @SerializedName("longitud")
+    val longitud: Double
 ):  Serializable

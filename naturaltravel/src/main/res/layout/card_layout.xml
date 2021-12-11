@@ -38,50 +38,50 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.214"
-            app:srcCompat="@drawable/ecoparque_tigua" />
+            app:layout_constraintVertical_bias="0.214"/>
+        <!--app:srcCompat="@drawable/ecoparque_tigua" />-->
 
-        <TextView
-            android:id="@+id/nombre"
-            style="@style/Texto_Titulo_Sitio"
-            android:layout_width="191dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/nombre_sitio"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.21"
-            app:layout_constraintStart_toEndOf="@+id/item_image"
-            app:layout_constraintTop_toTopOf="parent" />
+     <TextView
+         android:id="@+id/nombre"
+         style="@style/Texto_Titulo_Sitio"
+         android:layout_width="191dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="16dp"
+         android:text="@string/nombre_sitio"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.21"
+         app:layout_constraintStart_toEndOf="@+id/item_image"
+         app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/descripcion"
-            style="@style/Texto_normal"
-            android:layout_width="175dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/nombre"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="20dp"
-            android:justificationMode="inter_word"
-            android:layout_toEndOf="@+id/item_image"
-            android:text="@string/descripcion_sitio"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.35"
-            app:layout_constraintStart_toEndOf="@+id/item_image"
-            app:layout_constraintTop_toBottomOf="@+id/nombre" />
+     <TextView
+         android:id="@+id/descripcion"
+         style="@style/Texto_normal"
+         android:layout_width="175dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/nombre"
+         android:layout_marginTop="8dp"
+         android:layout_marginEnd="20dp"
+         android:justificationMode="inter_word"
+         android:layout_toEndOf="@+id/item_image"
+         android:text="@string/descripcion_sitio"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.35"
+         app:layout_constraintStart_toEndOf="@+id/item_image"
+         app:layout_constraintTop_toBottomOf="@+id/nombre" />
 
-        <TextView
-            android:id="@+id/puntaje"
-            style="@style/Texto_normal_Titulo"
-            android:layout_width="88dp"
-            android:layout_height="17dp"
-            android:layout_below="@+id/descripcion"
-            android:layout_toEndOf="@+id/item_image"
-            android:text="@string/puntaje_sitio"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.06"
-            app:layout_constraintStart_toEndOf="@+id/item_image"
-            app:layout_constraintTop_toBottomOf="@+id/descripcion" />
+     <TextView
+         android:id="@+id/puntaje"
+         style="@style/Texto_normal_Titulo"
+         android:layout_width="88dp"
+         android:layout_height="17dp"
+         android:layout_below="@+id/descripcion"
+         android:layout_toEndOf="@+id/item_image"
+         android:text="@string/puntaje_sitio"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.06"
+         app:layout_constraintStart_toEndOf="@+id/item_image"
+         app:layout_constraintTop_toBottomOf="@+id/descripcion" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+ </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+ </androidx.constraintlayout.widget.ConstraintLayout>
