@@ -15,6 +15,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        // poner icono en action bar
+        getSupportActionBar()?.setDisplayShowHomeEnabled(true)
+        getSupportActionBar()?.setIcon(R.mipmap.ic_launcher_barra_round)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

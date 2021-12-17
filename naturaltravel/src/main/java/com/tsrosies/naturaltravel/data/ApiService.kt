@@ -10,3 +10,4 @@ interface ApiService {
     suspend fun getSitiosnaturales(): SitioNatural
 
 }
+
